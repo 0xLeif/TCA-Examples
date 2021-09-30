@@ -50,6 +50,7 @@
 		00F924E726F131CD0061B7A3 /* PullbackExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullbackExampleUITests.swift; sourceTree = "<group>"; };
 		00F924E926F131CD0061B7A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00F9250726F133D00061B7A3 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		5C60707626F94D2900D1808D /* PullbackExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PullbackExample.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +103,7 @@
 		00F924C926F131CB0061B7A3 /* PullbackExample */ = {
 			isa = PBXGroup;
 			children = (
+				5C60707626F94D2900D1808D /* PullbackExample.entitlements */,
 				0048958F26F14B5A004E72FD /* RootView.swift */,
 				00F924CA26F131CB0061B7A3 /* PullbackExampleApp.swift */,
 				00F924CC26F131CB0061B7A3 /* CounterView.swift */,
@@ -441,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PullbackExample/PullbackExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PullbackExample/Preview Content\"";
 				DEVELOPMENT_TEAM = 234Z7G6S62;
@@ -453,6 +456,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = leif.PullbackExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -463,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PullbackExample/PullbackExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PullbackExample/Preview Content\"";
 				DEVELOPMENT_TEAM = 234Z7G6S62;
@@ -475,6 +480,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = leif.PullbackExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
